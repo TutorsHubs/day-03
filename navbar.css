@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    height: 70px;
+    background: red;
+    align-items: center;
+    /* space in the center to be maximum */
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    /* To remove bullets */
+    list-style: none;
+    display: flex;
+}
+
+li {
+    /* space in between */
+    margin-left: 20px;
+}

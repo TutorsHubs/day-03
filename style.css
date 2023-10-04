@@ -51,3 +51,50 @@
     margin-right: 20px;
     margin-top: 20px;
 }
+
+/* TO show padding */
+.container {
+    display: flex;
+    /* flex direction > row */
+    background: blue;
+    /* height: 100px;
+    width: 100px; */
+    padding: 50px;
+    flex-wrap: wrap;
+    /* flex direction > column */
+}
+
+.boxes {
+    height: 50px;
+    width: 50px;
+    background: red;
+    margin-left: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    background: green;
+
+    /* does not work without display flex */
+    /* affects top to bottom */
+    align-items: center;
+    /* affects left to right */
+    /* contents not items */
+    justify-content: center;
+}
+
+.items {
+    height: 50px;
+    width: 50px;
+    background: yellow;
+    margin-left: 10px;
+}
+
+body {
+    display: flex;
+    background: black;
+}
